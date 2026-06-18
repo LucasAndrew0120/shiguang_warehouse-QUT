@@ -70,7 +70,7 @@ async function fetchAndParseJwData(academicYear, semesterIndex) {
         const planCode = `${academicYear}-${endYear}-${semesterValue}-2`;
 
         AndroidBridge.showToast("正在获取教务数据...");
-        const response = await fetch("https://jwxs.imu.edu.cn/student/courseSelect/thisSemesterCurriculum/ajaxStudentSchedule/callback", {
+        const response = await fetch("https://jwxt.imu.edu.cn/student/courseSelect/thisSemesterCurriculum/ajaxStudentSchedule/callback", {
             "headers": { "content-type": "application/x-www-form-urlencoded; charset=UTF-8" },
             "body": `&planCode=${planCode}`,
             "method": "POST",
