@@ -642,3 +642,8 @@ schools:
     name: "中南林业科技大学"
     initial: "Z"
     resource_folder: "CSUFT"
+
+  - id: "JLU"
+    name: "吉林大学"
+    initial: "J"
+    resource_folder: "JLU"
